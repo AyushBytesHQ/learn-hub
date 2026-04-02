@@ -1,148 +1,90 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Learn Hub - Home</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-<!-- NAVBAR -->
-<nav>
-    <div class="logo">Learn<span>Hub</span></div>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="courses.html">Courses</a></li>
-    </ul>
-</nav>
-
-<!-- HERO SECTION -->
-<section class="hero">
-    <h1>Learn Smarter with Learn Hub</h1>
-    <p>Start your coding journey with simple and powerful courses</p>
-    <a href="courses.html" class="btn">Explore Courses</a>
-</section>
-
-<!-- SEARCH -->
-<div class="search-box">
-    <input type="text" placeholder="Search courses...">
-    <button>Search</button>
-</div>
-
-<!-- WHAT WE OFFER -->
-<section class="section">
-    <h2>What We Offer</h2>
-    <div class="card-container">
-        <div class="card">
-            <h3>Easy Tutorials</h3>
-            <p>Step-by-step lessons for beginners and advanced learners.</p>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">
+            <span class="logo-icon">📚</span>
+            <span class="logo-text">Learn<span class="highlight">Hub</span></span>
         </div>
-        <div class="card">
-            <h3>Expert Instructors</h3>
-            <p>Learn from professionals with years of coding experience.</p>
-        </div>
-        <div class="card">
-            <h3>Practical Projects</h3>
-            <p>Hands-on projects to improve your coding skills effectively.</p>
-        </div>
-    </div>
-</section>
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="courses.html">Courses</a></li>
+        </ul>
+    </nav>
 
-<!-- STATS -->
-<section class="section">
-    <h2>Our Stats</h2>
-    <div class="stats">
-        <div class="stat">
-            <h2>100+</h2>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="fade-in">Welcome to <span class="highlight">Learn Hub</span></h1>
+            <p class="slide-up">Your gateway to knowledge and skills. Start your learning journey today!</p>
+            <a href="courses.html" class="btn pulse">Explore Courses</a>
+        </div>
+        <div class="hero-image">
+            <div class="floating-box box1"></div>
+            <div class="floating-box box2"></div>
+            <div class="floating-box box3"></div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <h2 class="section-title">Why Choose Us?</h2>
+        <div class="features-container">
+            <div class="feature-card">
+                <div class="feature-icon">🎯</div>
+                <h3>Expert Teachers</h3>
+                <p>Learn from industry professionals with years of experience.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">💻</div>
+                <h3>Online Learning</h3>
+                <p>Study anytime, anywhere with our flexible online platform.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">📜</div>
+                <h3>Certificates</h3>
+                <p>Get certified upon completion of your courses.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="stat-item">
+            <h3>500+</h3>
             <p>Courses</p>
         </div>
-        <div class="stat">
-            <h2>5000+</h2>
+        <div class="stat-item">
+            <h3>10,000+</h3>
             <p>Students</p>
         </div>
-        <div class="stat">
-            <h2>10+</h2>
+        <div class="stat-item">
+            <h3>50+</h3>
             <p>Instructors</p>
         </div>
-    </div>
-</section>
-
-<!-- TOP COURSES -->
-<section class="section">
-    <h2>Top Courses</h2>
-    <div class="card-container">
-        <div class="card">
-            <img src="images/html.jpg" alt="HTML">
-            <span class="tag">FREE</span>
-            <h3>HTML Mastery</h3>
-            <p>Beginner Level</p>
-            <div class="rating">⭐⭐⭐⭐☆</div>
-            <a href="#">Start Course</a>
+        <div class="stat-item">
+            <h3>95%</h3>
+            <p>Success Rate</p>
         </div>
+    </section>
 
-        <div class="card">
-            <img src="images/css.jpg" alt="CSS">
-            <span class="tag">FREE</span>
-            <h3>CSS Design</h3>
-            <p>Intermediate Level</p>
-            <div class="rating">⭐⭐⭐⭐☆</div>
-            <a href="#">Start Course</a>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <span class="logo-icon">📚</span>
+                <span class="logo-text">Learn<span class="highlight">Hub</span></span>
+            </div>
+            <p>© 2024 Learn Hub. All rights reserved.</p>
         </div>
-
-        <div class="card">
-            <img src="images/js.jpg" alt="JavaScript">
-            <span class="tag">FREE</span>
-            <h3>JavaScript</h3>
-            <p>Advanced Level</p>
-            <div class="rating">⭐⭐⭐⭐⭐</div>
-            <a href="#">Start Course</a>
-        </div>
-
-        <div class="card">
-            <img src="images/responsive.jpg" alt="Responsive">
-            <span class="tag">FREE</span>
-            <h3>Responsive Design</h3>
-            <p>All Levels</p>
-            <div class="rating">⭐⭐⭐⭐☆</div>
-            <a href="#">Start Course</a>
-        </div>
-    </div>
-</section>
-
-<!-- TESTIMONIALS -->
-<section class="section">
-    <h2>What Students Say</h2>
-    <div class="card-container">
-        <div class="card">
-            <p>"Learn Hub helped me start coding from scratch. Highly recommended!"</p>
-            <h4>- Ayush Adhikari</h4>
-        </div>
-        <div class="card">
-            <p>"The courses are practical and easy to understand. Loved it!"</p>
-            <h4>- Sarah</h4>
-        </div>
-        <div class="card">
-            <p>"Great instructors and amazing projects. I learned a lot."</p>
-            <h4>- John</h4>
-        </div>
-    </div>
-</section>
-
-<!-- CALL TO ACTION -->
-<section class="section">
-    <h2>Ready to start learning?</h2>
-    <a href="courses.html" class="btn">Join Now</a>
-</section>
-
-<!-- FOOTER -->
-<footer>
-    <p>Subscribe</p>
-    <div class="newsletter">
-        <input type="email" placeholder="Email">
-        <button>Join</button>
-    </div>
-    <p>© 2026 Learn Hub</p>
-</footer>
-
+    </footer>
 </body>
 </html>
