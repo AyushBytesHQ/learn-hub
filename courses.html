@@ -1,74 +1,190 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Learn Hub - Courses</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">
+            <span class="logo-icon">📚</span>
+            <span class="logo-text">Learn<span class="highlight">Hub</span></span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="courses.html" class="active">Courses</a></li>
+        </ul>
+    </nav>
 
-<nav>
-    <div class="logo">Learn<span>Hub</span></div>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="courses.html">Courses</a></li>
-    </ul>
-</nav>
+    <!-- Courses Hero -->
+    <section class="courses-hero">
+        <h1 class="fade-in">Our <span class="highlight">Courses</span></h1>
+        <p class="slide-up">Choose from our wide range of professional courses</p>
+    </section>
 
-<section class="section">
-    <h1>Our Courses</h1>
-</section>
+    <!-- Courses Grid -->
+    <section class="courses-section">
+        <div class="courses-container">
+            <!-- Course 1 -->
+            <div class="course-card">
+                <div class="course-badge">Popular</div>
+                <div class="course-icon">🌐</div>
+                <h3>Web Development</h3>
+                <p>Learn HTML, CSS, JavaScript and build amazing websites from scratch.</p>
+                <div class="course-details">
+                    <div class="detail">
+                        <span class="label">Duration:</span>
+                        <span class="value">12 Weeks</span>
+                    </div>
+                    <div class="detail">
+                        <span class="label">Level:</span>
+                        <span class="value">Beginner</span>
+                    </div>
+                </div>
+                <div class="course-price">
+                    <span class="price">Rs3000</span>
+                    <span class="original-price">Rs6000</span>
+                </div>
+                <a href="#" class="btn enroll-btn">Enroll Now</a>
+            </div>
 
-<section class="section">
-    <div class="card-container">
+            <!-- Course 2 -->
+            <div class="course-card">
+                <div class="course-badge new">New</div>
+                <div class="course-icon">📱</div>
+                <h3>Mobile App Development</h3>
+                <p>Create stunning mobile apps for iOS and Android platforms.</p>
+                <div class="course-details">
+                    <div class="detail">
+                        <span class="label">Duration:</span>
+                        <span class="value">16 Weeks</span>
+                    </div>
+                    <div class="detail">
+                        <span class="label">Level:</span>
+                        <span class="value">Intermediate</span>
+                    </div>
+                </div>
+                <div class="course-price">
+                    <span class="price">Rs2000</span>
+                    <span class="original-price">Rs3999</span>
+                </div>
+                <a href="#" class="btn enroll-btn">Enroll Now</a>
+            </div>
 
-<div class="card">
-    <img src="images/html.jpg" alt="HTML">
-    <span class="tag">FREE</span>
-    <h3>HTML Mastery</h3>
-    <p>Beginner Level</p>
-    <div class="rating">⭐⭐⭐⭐☆</div>
-    <a href="#">Start Course</a>
-</div>
+            <!-- Course 3 -->
+            <div class="course-card">
+                <div class="course-icon">🐍</div>
+                <h3>Python Programming</h3>
+                <p>Master Python programming from basics to advanced concepts.</p>
+                <div class="course-details">
+                    <div class="detail">
+                        <span class="label">Duration:</span>
+                        <span class="value">10 Weeks</span>
+                    </div>
+                    <div class="detail">
+                        <span class="label">Level:</span>
+                        <span class="value">Beginner</span>
+                    </div>
+                </div>
+                <div class="course-price">
+                    <span class="price">Rs5000</span>
+                    <span class="original-price">Rs25000</span>
+                </div>
+                <a href="#" class="btn enroll-btn">Enroll Now</a>
+            </div>
 
-<div class="card">
-    <img src="images/css.jpg" alt="CSS">
-    <span class="tag">FREE</span>
-    <h3>CSS Design</h3>
-    <p>Intermediate Level</p>
-    <div class="rating">⭐⭐⭐⭐☆</div>
-    <a href="#">Start Course</a>
-</div>
+            <!-- Course 4 -->
+            <div class="course-card">
+                <div class="course-badge">Bestseller</div>
+                <div class="course-icon">📊</div>
+                <h3>Data Science</h3>
+                <p>Analyze data, create visualizations, and build ML models.</p>
+                <div class="course-details">
+                    <div class="detail">
+                        <span class="label">Duration:</span>
+                        <span class="value">20 Weeks</span>
+                    </div>
+                    <div class="detail">
+                        <span class="label">Level:</span>
+                        <span class="value">Advanced</span>
+                    </div>
+                </div>
+                <div class="course-price">
+                    <span class="price">RS6000</span>
+                    <span class="original-price">Rs8000</span>
+                </div>
+                <a href="#" class="btn enroll-btn">Enroll Now</a>
+            </div>
 
-<div class="card">
-    <img src="images/js.jpg" alt="JavaScript">
-    <span class="tag">FREE</span>
-    <h3>JavaScript</h3>
-    <p>Advanced Level</p>
-    <div class="rating">⭐⭐⭐⭐⭐</div>
-    <a href="#">Start Course</a>
-</div>
+            <!-- Course 5 -->
+            <div class="course-card">
+                <div class="course-icon">🎨</div>
+                <h3>UI/UX Design</h3>
+                <p>Design beautiful user interfaces and experiences.</p>
+                <div class="course-details">
+                    <div class="detail">
+                        <span class="label">Duration:</span>
+                        <span class="value">8 Weeks</span>
+                    </div>
+                    <div class="detail">
+                        <span class="label">Level:</span>
+                        <span class="value">Beginner</span>
+                    </div>
+                </div>
+                <div class="course-price">
+                    <span class="price">Rs6000</span>
+                    <span class="original-price">Rs7000</span>
+                </div>
+                <a href="#" class="btn enroll-btn">Enroll Now</a>
+            </div>
 
-<div class="card">
-    <img src="images/responsive.jpg" alt="Responsive">
-    <span class="tag">FREE</span>
-    <h3>Responsive Design</h3>
-    <p>All Levels</p>
-    <div class="rating">⭐⭐⭐⭐☆</div>
-    <a href="#">Start Course</a>
-</div>
+            <!-- Course 6 -->
+            <div class="course-card">
+                <div class="course-badge new">New</div>
+                <div class="course-icon">☁️</div>
+                <h3>Cloud Computing</h3>
+                <p>Learn AWS, Azure, and Google Cloud platforms.</p>
+                <div class="course-details">
+                    <div class="detail">
+                        <span class="label">Duration:</span>
+                        <span class="value">14 Weeks</span>
+                    </div>
+                    <div class="detail">
+                        <span class="label">Level:</span>
+                        <span class="value">Intermediate</span>
+                    </div>
+                </div>
+                <div class="course-price">
+                    <span class="price">Rs3999</span>
+                    <span class="original-price">Rs7600</span>
+                </div>
+                <a href="#" class="btn enroll-btn">Enroll Now</a>
+            </div>
+        </div>
+    </section>
 
-    </div>
-</section>
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="cta-content">
+            <h2>Ready to Start Learning?</h2>
+            <p>Join thousands of students who have already transformed their careers with Learn Hub.</p>
+            <a href="#" class="btn cta-btn pulse">Get Started Today</a>
+        </div>
+    </section>
 
-<footer>
-    <p>Subscribe</p>
-    <div class="newsletter">
-        <input type="email" placeholder="Email">
-        <button>Join</button>
-    </div>
-    <p>© 2026 Learn Hub</p>
-</footer>
-
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <span class="logo-icon">📚</span>
+                <span class="logo-text">Learn<span class="highlight">Hub</span></span>
+            </div>
+            <p>© 2024 Learn Hub. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
